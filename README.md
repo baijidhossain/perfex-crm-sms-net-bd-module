@@ -12,6 +12,10 @@ Easily integrate **[sms.net.bd](https://sms.net.bd)** with **Perfex CRM** to sen
 - 🔑 Secure API-based communication
 - ⚙️ Easy configuration with API Key
 
+## Prerequisites
+- Perfex CRM Version 3.2.1
+- sms.net.bd sms module version 1.0.1
+
 ## Installation Instructions
 
 1. **Download the Latest Release**
@@ -23,7 +27,7 @@ Easily integrate **[sms.net.bd](https://sms.net.bd)** with **Perfex CRM** to sen
    - Log in to your Perfex CRM admin panel.
    - Navigate to `Setup` > `Modules`.
    - Click on the `Upload Module` button.
-   - Upload the `smsapi.zip` file you downloaded in step 1.
+   - Upload the `smsnetbd.zip` file you downloaded in step 1.
 
 3. **Activate the Module**
 
@@ -32,7 +36,7 @@ Easily integrate **[sms.net.bd](https://sms.net.bd)** with **Perfex CRM** to sen
 
 4. **Configure the Module**
 
-   - Once activated, navigate to `Setup` > `Settings` > `SMS` > `SMSAPI`.
+   - Once activated, navigate to `Setup` > `Settings` > `SMS` > `smsnetbd`.
    - Enter your SMSAPI credentials and configure the settings as needed.
 
 5. **Start Using the Module**

@@ -1,20 +1,22 @@
-# Perfex CRM - ALPHASMS Module
+
+# SMS.net.bd Module for Perfex CRM
 
 ![ALPHASMS + Perfex CRM](./assets/img/sms-net-bd-logo.png)
 
-This module allows you to integrate SMSAPI services with Perfex CRM, enabling you to send SMS notifications directly from your CRM system.
+Easily integrate **sms.net.bd** with **Perfex CRM** to send SMS notifications, check balance, retrieve delivery reports, and manage SMS seamlessly.
 
-## Available Languages
-
-The module is available in the following languages:
-
-- <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f1ec-1f1e7.png?v8" alt="English" width="18" height="20"/> English
+## Features
+- 📩 Send SMS directly from Perfex CRM
+- 📊 Check SMS balance
+- 📜 Retrieve delivery reports
+- 🔑 Secure API-based communication
+- ⚙️ Easy configuration with API Key
 
 ## Installation Instructions
 
 1. **Download the Latest Release**
 
-   Go to the [Releases](https://github.com/rzietkowski/Perfex-CRM-SMSAPI-Module/releases) page of this repository and download the latest `smsapi.zip` file.
+   Go to the [Releases](https://github.com/rzietkowski/Perfex-CRM-SMSAPI-Module/releases) page of this repository and download the latest `smsnetbd.zip` file.
 
 2. **Upload the Module**
 

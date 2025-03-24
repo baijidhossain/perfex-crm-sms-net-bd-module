@@ -45,25 +45,41 @@ Easily integrate **[sms.net.bd](https://sms.net.bd)** with **Perfex CRM** to sen
 
 ## Additional Configuration
 
-### 1. API Key Configuration
+### 1. API Key Setup
    
-   - Obtain your API key from **sms.net.bd** by logging into your account.
+   - Log in to your **sms.net.bd** account.
    - Navigate to `Settings` > `API Settings` > `API Tokens` > `+ Generate Token`.
    - Provide a token name and set the expiration date as needed.
    - Select the necessary permissions and click `Generate Token`.
-   - Copy the generated token and paste it into the API Key field in the module configuration.
+   - Copy the generated token and paste it into the **API Key** field in the module configuration.
 
-### 2. Sender Name Configuration
+### 2. Sender ID Configuration
+   
+   - Log in to your **sms.net.bd** account.
+   - Navigate to `SMS Settings` > `Sender ID`.
+   - Add or select your approved Sender ID.
+   - Copy the Sender ID and paste it into the **Sender ID** field in the module configuration.
+
+### 3. Sender Name Configuration
    
    - Choose or add a sender name from **sms.net.bd** by navigating to `SMS Messages` > `Sender Fields`.
    - Select your sender field and copy it.
-   - Paste it into the Sender Name field in the module configuration.
+   - Paste it into the **Sender Name** field in the module configuration.
 
-### 3. Message Logging
+### 4. Log Sent Messages
    
-   - This module includes an additional feature for logging messages.
+   - This module includes an option to log all sent messages.
+   - To enable logging, go to `Setup` > `Settings` > `SMS` > `sms.net.bd`.
+   - Check the **Log Sent Messages** option.
    - When enabled, it adds a new menu item under `Reports` > `SMS Log`.
-   - This logs sent messages and receives notifications about message statuses.
+   - This logs all outgoing messages and stores delivery reports.
+
+### 5. Test Mode Selection
+   
+   - The module allows testing SMS sending before going live.
+   - To enable test mode, go to `Setup` > `Settings` > `SMS` > `sms.net.bd`.
+   - Check the **Test Mode** option.
+   - In test mode, messages will not be actually sent but logged for testing purposes.
 
 ## Troubleshooting
 

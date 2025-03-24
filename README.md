@@ -3,7 +3,7 @@
 
 ![ALPHASMS + Perfex CRM](./assets/img/sms-net-bd-logo.png)
 
-Easily integrate **sms.net.bd** with **Perfex CRM** to send SMS notifications, check balance, retrieve delivery reports, and manage SMS seamlessly.
+Easily integrate **[sms.net.bd](https://sms.net.bd)** with **Perfex CRM** to send SMS notifications, check balance, retrieve delivery reports, and manage SMS seamlessly.
 
 ## Features
 - 📩 Send SMS directly from Perfex CRM

@@ -50,35 +50,31 @@ Easily integrate **[sms.net.bd](https://sms.net.bd)** with **Perfex CRM** to sen
 ### 1. API Key Setup
    
    - Log in to your **sms.net.bd** account.
-   - Navigate to `API Menu` > `+ Generate Token`.
-   - Provide a token name and set the expiration date as needed.
-   - Select the necessary permissions and click `Generate Token`.
-   - Copy the generated token and paste it into the **API Key** field in the module configuration.
+   - Navigate to `API Menu` > `+ Generate API KAY`.
+   - Copy the generated token and paste it into the **API Key** field in the module settings.
 
 ### 2. Sender ID Configuration
    
    - Log in to your **sms.net.bd** account.
-   - Navigate to `SMS Settings` > `Sender ID`.
+   - Navigate to `Messaging` > `Create Sender ID`.
    - Add or select your approved Sender ID.
-   - Copy the Sender ID and paste it into the **Sender ID** field in the module configuration.
+   - Select at a time one Sender ID in the module settings.
 
 ### 3. Log Sent Messages
    
    - This module includes an option to log all sent messages.
-   - Navigate to `Setup` > `Settings` > `SMS` > `sms.net.bd`.
-   - Enable or disable the **Log Sent Messages** option by selecting `Yes` or `No`.
+   - Enable or disable the **Log Sent Messages** option by selecting `Yes` or `No` in the module settings.
    - When enabled, sent messages will be recorded for tracking purposes.
 
 ### 4. Test Mode Selection
    
    - The module allows testing SMS sending before going live.
-   - Navigate to `Setup` > `Settings` > `SMS` > `sms.net.bd`.
    - Enable or disable **Test Mode** by selecting `Yes` or `No`.
-   - In test mode, SMS will not be actually sent but will be logged for testing purposes.
+   - In test mode, SMS will be sent but logged for testing purposes.
 
 ## Troubleshooting
 
 If you encounter any issues during installation or usage, please check the following:
 
 - Ensure that you have the correct permissions to upload and activate modules in Perfex CRM.
-- Verify that your **sm
+- Verify that your **SMS

@@ -10,6 +10,8 @@ Easily integrate **[sms.net.bd](https://sms.net.bd)** with **Perfex CRM** to sen
 - Retrieve delivery reports  
 - Secure API-based communication  
 - Easy configuration with API Key  
+- Enable or disable Test Mode  
+- Log sent messages for tracking  
 
 ## Prerequisites
 - Perfex CRM Version 3.2.1
@@ -48,7 +50,7 @@ Easily integrate **[sms.net.bd](https://sms.net.bd)** with **Perfex CRM** to sen
 ### 1. API Key Setup
    
    - Log in to your **sms.net.bd** account.
-   - Navigate to `Settings` > `API Settings` > `API Tokens` > `+ Generate Token`.
+   - Navigate to `API Menu` > `+ Generate Token`.
    - Provide a token name and set the expiration date as needed.
    - Select the necessary permissions and click `Generate Token`.
    - Copy the generated token and paste it into the **API Key** field in the module configuration.
@@ -60,37 +62,23 @@ Easily integrate **[sms.net.bd](https://sms.net.bd)** with **Perfex CRM** to sen
    - Add or select your approved Sender ID.
    - Copy the Sender ID and paste it into the **Sender ID** field in the module configuration.
 
-### 3. Sender Name Configuration
-   
-   - Choose or add a sender name from **sms.net.bd** by navigating to `SMS Messages` > `Sender Fields`.
-   - Select your sender field and copy it.
-   - Paste it into the **Sender Name** field in the module configuration.
-
-### 4. Log Sent Messages
+### 3. Log Sent Messages
    
    - This module includes an option to log all sent messages.
-   - To enable logging, go to `Setup` > `Settings` > `SMS` > `sms.net.bd`.
-   - Check the **Log Sent Messages** option.
-   - When enabled, it adds a new menu item under `Reports` > `SMS Log`.
-   - This logs all outgoing messages and stores delivery reports.
+   - Navigate to `Setup` > `Settings` > `SMS` > `sms.net.bd`.
+   - Enable or disable the **Log Sent Messages** option by selecting `Yes` or `No`.
+   - When enabled, sent messages will be recorded for tracking purposes.
 
-### 5. Test Mode Selection
+### 4. Test Mode Selection
    
    - The module allows testing SMS sending before going live.
-   - To enable test mode, go to `Setup` > `Settings` > `SMS` > `sms.net.bd`.
-   - Check the **Test Mode** option.
-   - In test mode, messages will not be actually sent but logged for testing purposes.
+   - Navigate to `Setup` > `Settings` > `SMS` > `sms.net.bd`.
+   - Enable or disable **Test Mode** by selecting `Yes` or `No`.
+   - In test mode, SMS will not be actually sent but will be logged for testing purposes.
 
 ## Troubleshooting
 
 If you encounter any issues during installation or usage, please check the following:
 
 - Ensure that you have the correct permissions to upload and activate modules in Perfex CRM.
-- Verify that your **sms.net.bd** API credentials are correct.
-- Check the Perfex CRM documentation for any additional requirements or compatibility issues.
-
-For further assistance, please contact **[sms.net.bd Support](https://sms.net.bd)**.
-
-## License
-
-This module is licensed under a commercial license. Unauthorized distribution is prohibited.
+- Verify that your **sm

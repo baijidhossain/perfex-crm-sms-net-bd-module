@@ -33,13 +33,13 @@ Easily integrate **[sms.net.bd](https://sms.net.bd)** with **Perfex CRM** to sen
 ## Installation Instructions
 
 ### 1. Download the Latest Release
-Download the `sms_net_bd.zip` file from the official **[releases](https://github.com/smsnetbd/sms-net-bd-perfexcrm/releases)** repository.
+Download the `alphasms.zip` file from the official **[releases](https://github.com/smsnetbd/sms-net-bd-perfexcrm/releases)** repository.
 
 ### 2. Upload the Module
 1. Log in to your **Perfex CRM Admin Panel**.
 2. Navigate to **Setup** > **Modules**.
 3. Click on **Upload Module**.
-4. Upload the `sms_net_bd.zip` file.
+4. Upload the `alphasms.zip` file.
 
 ### 3. Activate the Module
 1. Locate the module in the list of available modules.

@@ -26,7 +26,7 @@ Easily integrate **[sms.net.bd](https://sms.net.bd)** with **Perfex CRM** to sen
   - **Staff Reminder**: Triggered when staff is notified for a specific custom reminder.
 
 - **Note: Leave contents blank to disable specific trigger.**
-
+ 
 ## Prerequisites
 - **Perfex CRM** version **3.2.1** or higher
 - **SMS.net.bd** module version **1.0.1**

@@ -25,7 +25,7 @@ Easily integrate **[sms.net.bd](https://sms.net.bd)** with **Perfex CRM** to sen
   - **Contract Sign Reminder**: Triggered when a contract is first sent and stops automatically once signed.
   - **Staff Reminder**: Triggered when staff is notified for a specific custom reminder.
 
-- **Note:Leave contents blank to disable specific trigger.**
+- **Note: Leave contents blank to disable specific trigger.**
 
 ## Prerequisites
 - **Perfex CRM** version **3.2.1** or higher
@@ -35,13 +35,13 @@ Easily integrate **[sms.net.bd](https://sms.net.bd)** with **Perfex CRM** to sen
 ## Installation Instructions
 
 ### 1. Download the Latest Release
-Download the `alphasms.zip` file from the official **[releases](https://github.com/smsnetbd/sms-net-bd-perfexcrm/releases)** repository.
+Download the `alphasms.zip` file from the  **[releases](https://github.com/smsnetbd/sms-net-bd-perfexcrm/releases)** page.
 
 ### 2. Upload the Module
 1. Log in to your **Perfex CRM Admin Panel**.
 2. Navigate to **Setup** > **Modules**.
-3. Click on **Upload Module**.
-4. Upload the `alphasms.zip` file.
+3. Select the alphasms.zip file.
+4. Click the Install button and wait for the installation to complete.
 
 ### 3. Activate the Module
 1. Locate the module in the list of available modules.
@@ -95,6 +95,5 @@ If you encounter issues, check the following:
 - Ensure you have the correct **permissions** to upload and activate modules.
 - Verify your **API Key** is correct.
 - Check if **Test Mode** is disabled when sending real SMS.
-- Ensure **sms.net.bd** services are operational.
 
 For further assistance, contact **[sms.net.bd Support](https://sms.net.bd/contact)**.

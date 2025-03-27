@@ -40,7 +40,7 @@ Download the `alphasms.zip` file from the  **[releases](https://github.com/smsne
 ### 2. Upload the Module
 1. Log in to your **Perfex CRM Admin Panel**.
 2. Navigate to **Setup** > **Modules**.
-3. Select the alphasms.zip file.
+3. Select the **alphasms.zip** file.
 4. Click the Install button and wait for the installation to complete.
 
 ### 3. Activate the Module

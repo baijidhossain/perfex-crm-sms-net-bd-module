@@ -26,7 +26,7 @@ $CI->load->helper(ALPHASMS_MODULE_NAME. '/'. ALPHASMS_MODULE_NAME);
 
 register_activation_hook(ALPHASMS_MODULE_NAME, function() {
 
-	$CI = &get_instance();
+    $CI = &get_instance();
     require __DIR__ . '/install.php';
 
 });

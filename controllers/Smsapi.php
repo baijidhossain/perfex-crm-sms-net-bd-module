@@ -52,14 +52,13 @@ class Smsapi extends AdminController
         }
 
         $sms = $this->smsapi_model->get('sms','id',$id);
-
-        $reports = $sms ? $this->smsapi_model->get('report','MsgId',$sms->ms_id, true) : null;
-
+   
         $data = [];
+        
         $data['sms'] = $sms;
-        $data['reports'] = $reports;
 
         $this->load->view('preview_template', $data);
+
     }
 
     /**

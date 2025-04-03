@@ -21,14 +21,14 @@
                     <?php render_datatable([
                         'ID #',
                         _l('actions'),
-                        _l(ALPHASMS_MODULE_NAME.'_ms_id'),
+                        _l(ALPHASMS_MODULE_NAME.'_request_id'),
                         _l(ALPHASMS_MODULE_NAME.'_testsms'),
                         _l(ALPHASMS_MODULE_NAME.'_error'),
-                        _l(ALPHASMS_MODULE_NAME.'_ms_status'),
-                        _l(ALPHASMS_MODULE_NAME.'_sms_to'),
                         _l(ALPHASMS_MODULE_NAME.'_sms_from'),
+                        _l(ALPHASMS_MODULE_NAME.'_sms_to'),
+                       
                         _l(ALPHASMS_MODULE_NAME.'_sms_message'),
-                        _l(ALPHASMS_MODULE_NAME.'_ms_points'),
+                       
                         _l(ALPHASMS_MODULE_NAME.'_created_at'),
                     ], ALPHASMS_MODULE_NAME);
                     ?>
@@ -46,25 +46,39 @@
 <?php init_tail(); ?>
 <script>
     var hidden_columns = [];
+
     function init_smsapi_item(e) {
+
         load_small_table_item(e, "#<?php echo ALPHASMS_MODULE_NAME.'SMT';?>", "item_id", "<?= ALPHASMS_MODULE_NAME;?>/get_item_data_ajax", ".table-<?php echo ALPHASMS_MODULE_NAME;?>");
+
     }
+
     $(function() {
+
         initDataTable('.table-<?php echo ALPHASMS_MODULE_NAME;?>', window.location.href, 'undefined', 'undefined', {}, [0,'desc'] );
+
     });
+
     window.onload = function() {
+
         var hash = window.location.hash.substring(1);
+
         if ($.isNumeric(hash)) {
             var smsapi_item_id = parseInt(hash, 10);
             init_smsapi_item(smsapi_item_id);
         }
+
     }
+
     function reload_smsapi_table() {
+
         $.each([".table-<?php echo ALPHASMS_MODULE_NAME;?>"], (function(e, t) {
             $.fn.DataTable.isDataTable(t) && $(t).DataTable().ajax.reload(null, !1)
         }
+
         ))
     }
+
     function smsapi_item_delete(e){
 
         a = "<?php echo admin_url(ALPHASMS_MODULE_NAME.'/delete/'); ?>" + e;
@@ -80,5 +94,7 @@
                 alert_float("danger", a.message);
             }
         }))
+
     }
+
 </script>

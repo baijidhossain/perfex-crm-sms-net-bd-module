@@ -54,7 +54,6 @@ Download the `alphasms.zip` file from the  **[releases](https://github.com/smsne
 1. Navigate to **Setup** > **Settings** > **SMS** > **SMSAPI**.
 2. Enter your **API Key**.
 3. Configure other settings as required.
-4. Ensure the module is activated for SMS sending to work properly.
 
 ![sms.net.bd + Perfex CRM](./assets/img/screenshot3.png)
 

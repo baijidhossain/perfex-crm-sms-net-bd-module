@@ -13,11 +13,13 @@ class Smsapi_model extends App_Model
         if( !is_smsapi_save_messages() ){
             access_denied(ALPHASMS_MODULE_NAME);
         }
+        
     }
 
     public function get($table, $column, $value, $many = false)
     {
         $this->db->where($column, $value);
+
         $query = $this->db->get(db_prefix().self::TABLE[$table]);
     
         return $many ? $query->result() : $query->row();
@@ -27,7 +29,7 @@ class Smsapi_model extends App_Model
     {
         switch ($table) {
             case 'sms':
-                // $data['hash'] = app_generate_hash();
+                 $data['hash'] = app_generate_hash();
 
                 if( isset($data['sms_to']) && !empty($data['sms_to']) ){
                     $data['sms_to'] = str_replace([' ', ',', ';'], ',', $data['sms_to']);
@@ -46,16 +48,17 @@ class Smsapi_model extends App_Model
                 break;
         }
 
-        if( isset($data['error_invalid_numbers']) && !empty($data['error_invalid_numbers']) ){
-            $data['error_invalid_numbers'] = json_encode($data['error_invalid_numbers']);
-        }
 
         $timestamp_columns = ['ms_date_sent', 'sent_at', 'donedate'];
         // Convert Unix timestamp to format `Y-m-d H:i:s`
         array_walk($timestamp_columns, function($column) use (&$data) {
+
             if (isset($data[$column]) && is_numeric($data[$column])) {
+
                 $data[$column] = date('Y-m-d H:i:s', $data[$column]);
+
             }
+
         });
 
         $this->db->insert(db_prefix().self::TABLE[$table], $data);
@@ -89,4 +92,5 @@ class Smsapi_model extends App_Model
         }
         return false;
     }
+
 }

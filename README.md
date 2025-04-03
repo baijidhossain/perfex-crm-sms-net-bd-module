@@ -1,4 +1,4 @@
-# SMS.net.bd Module for Perfex CRM
+# sms.net.bd Module for Perfex CRM
 
 ![sms.net.bd + Perfex CRM](./assets/img/sms-net-bd-logo.png)
 

@@ -96,5 +96,7 @@ If you encounter issues, check the following:
 - Verify your **API Key** is correct.
 - Check if **Test Mode** is disabled when sending real SMS.
 
-For further assistance, contact **[sms.net.bd Support](https://sms.net.bd/contact)**.
+For further assistance, contact **[sms.net.bd Support](https://sms.net.bd/contact)**.  
 This module was developed by **[Baijid Hossain](https://baijid.com.bd)**.
+
+
